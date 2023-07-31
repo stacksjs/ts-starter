@@ -22,106 +22,55 @@ concurrency:
 
 jobs:
   lint:
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        node-version: [16.x, 18.x]
-        os: [ubuntu-latest]
-      fail-fast: false
-
     steps:
       - uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: Enable Corepack
-        run: corepack enable
-
-      - name: Install Dependencies
-        run: pnpm install
+      - name: Install bun
+        uses: oven-sh/setup-bun@v1
 
       - name: Lint
-        run: pnpm run lint
+        run: bun run lint
 
   typecheck:
     runs-on: ${{ matrix.os }}
 
-    strategy:
-      matrix:
-        node-version: [16.x, 18.x]
-        os: [ubuntu-latest]
-      fail-fast: false
-
     steps:
       - uses: actions/checkout@v3
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: Enable Corepack
-        run: corepack enable
+      
+      - name: Install bun
+        uses: oven-sh/setup-bun@v1
 
       - name: Install dependencies
-        run: pnpm install
+        run: bun install
 
       - name: Typecheck
-        run: pnpm run typecheck
+        run: bun --bun run typecheck
 
   test:
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        node-version: [16.x, 18.x]
-        os: [ubuntu-latest]
-      fail-fast: false
-
     steps:
       - uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: Enable Corepack
-        run: corepack enable
+      - name: Install bun
+        uses: oven-sh/setup-bun@v1
 
       - name: Install Dependencies
-        run: pnpm install
+        run: bun install
 
       - name: Unit Test
-        run: pnpm run test
+        run: bun test
 
   js-cs-fixer:
     if: github.event_name == 'pull_request' && ! startsWith(github.ref, 'refs/heads/auto-fixed/')
-    runs-on: ${{ matrix.os }}
-
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        node-version: [18]
 
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Use Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: Enable Corepack
-        run: corepack enable
+      - name: Install bun
+        uses: oven-sh/setup-bun@v1
 
       - name: Install Dependencies
-        run: pnpm install
+        run: bun install
 
       - name: Prepare Git User
         run: |
@@ -130,7 +79,7 @@ jobs:
           git checkout -B "${{ env.FIXER_BRANCH }}"
 
       - name: Apply auto-fixers
-        run: pnpm lint:fix
+        run: bun run lint:fix
 
       - name: Create Fixer PR
         run: |
