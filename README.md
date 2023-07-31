@@ -77,7 +77,7 @@ Made with ❤️
 [npm-version-href]: https://npmjs.com/package/@stacksjs/dummy-bun-ts-pkg
 [npm-downloads-src]: https://img.shields.io/npm/dm/@stacksjs/dummy-bun-ts-pkg?style=flat-square
 [npm-downloads-href]: https://npmjs.com/package/@stacksjs/dummy-bun-ts-pkg
-[github-actions-src]: https://img.shields.io/github/workflow/status/stacksjs/bun-ts-starter/CI/main?style=flat-square
+[github-actions-src]: https://img.shields.io/github/actions/workflow/status/stacksjs/bun-ts-starter/ci.yml?style=flat-square&branch=main
 [github-actions-href]: https://github.com/stacksjs/bun-ts-starter/actions?query=workflow%3Aci
 
 <!-- [codecov-src]: https://img.shields.io/codecov/c/gh/stacksjs/bun-ts-starter/main?style=flat-square
