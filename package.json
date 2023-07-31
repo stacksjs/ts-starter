@@ -1,6 +1,6 @@
 {
   "name": "@stacksjs/dummy-bun-ts-pkg",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "author": "Chris Breuer <chris@ow3.org>",
   "license": "MIT",
@@ -39,7 +39,7 @@
     "commit": "git cz",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "prepublishOnly": "bun --bun run build",
-    "release": "bunx --bun bumpp package.json --execute 'bun run changelog' --all",
+    "release": "bunx --bun bumpp package.json --all",
     "start": "bun --bun src/index.ts",
     "test": "bun test",
     "typecheck": "tsc --noEmit"
