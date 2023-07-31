@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "@ow3/eslint-config": "^0.47.1",
-    "@types/node": "^17.0.45",
+    "@types/node": "^18.17.1",
     "bun-types": "^0.7.1",
     "bumpp": "^8.2.1",
     "commitizen": "^4.3.0",
