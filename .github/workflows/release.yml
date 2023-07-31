@@ -15,6 +15,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Set Node.js
+        uses: actions/setup-node@v3
+        with:
+          registry-url: 'https://registry.npmjs.org'
+
       - name: Install bun
         uses: oven-sh/setup-bun@v1
 
@@ -22,14 +27,14 @@ jobs:
         run: bun install
 
       - name: Build the release
-        run: bun --bun run build
+        run: bun run build
 
       - name: Publish to npm
-        run: bun run publish --access public --no-git-checks
+        run: npm publish --access public --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
       - name: Create GitHub release
-        run: changelogithub
+        run: npx changelogithub
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
