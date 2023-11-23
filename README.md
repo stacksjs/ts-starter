@@ -35,7 +35,7 @@ bun run release # automates git commits, versioning, and changelog generations
 
 This Starter Kit comes pre-configured with the following:
 
-- [Powerful Build Engine](https://github.com/unjs/unbuild) - via unbuild
+- [Powerful Build Engine](https://github.com/oven-sh/bun) - via Bun
 - [Fully Typed APIs](https://www.typescriptlang.org/) - via TypeScript 5.1
 - [Be a Good Commitizen](https://www.npmjs.com/package/git-cz) - pre-configured Commitizen & git-cz setup to simplify semantic git commits, versioning, and changelog generations
 - [Built With Testing In Mind](https://bun.sh/docs/cli/test) - pre-configured unit-testing powered by [Bun](https://bun.sh/docs/cli/test)

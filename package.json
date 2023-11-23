@@ -1,8 +1,8 @@
 {
-  "name": "@stacksjs/dummy-bun-ts-pkg",
+  "name": "bun-ts-starter",
   "version": "0.0.5",
   "description": "",
-  "author": "Chris Breuer <chris@ow3.org>",
+  "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",
   "homepage": "https://github.com/stacksjs/bun-ts-starter#readme",
   "repository": {
@@ -59,8 +59,8 @@
     "typescript": "^5.3.2"
   },
   "simple-git-hooks": {
-    "pre-commit": "npx --no-install lint-staged",
-    "commit-msg": "npx --no -- commitlint --edit $1"
+    "pre-commit": "bunx --no-install lint-staged",
+    "commit-msg": "bunx --no -- commitlint --edit $1"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,vue}": "eslint --fix"
