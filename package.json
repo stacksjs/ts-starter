@@ -45,7 +45,7 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@ow3/eslint-config": "^0.47.3",
+    "@antfu/eslint-config": "^2.1.0",
     "@types/node": "^20.9.4",
     "bun-types": "^1.0.14",
     "bumpp": "^9.2.0",
