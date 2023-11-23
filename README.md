@@ -16,7 +16,7 @@ Luckily, it's incredibly easy to get your package development started:
 
 ```bash
 # you may use this GitHub template or the following command:
-bunx degit stacksjs/ts-starter my-pkg
+bunx degit stacksjs/bun-ts-starter my-pkg
 cd my-pkg
 
  # if you don't have pnpm installed, run `npm i -g pnpm`
@@ -50,7 +50,7 @@ bun test
 
 ## 📈 Changelog
 
-Please see our [releases](https://github.com/meemalabs/ts-starter/releases) page for more information on what has changed recently.
+Please see our [releases](https://github.com/stackjs/bun-ts-starter/releases) page for more information on what has changed recently.
 
 ## 💪🏼 Contributing
 
@@ -60,7 +60,7 @@ Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 
 For help, discussion about best practices, or any other conversation that would benefit from being searchable:
 
-[Discussions on GitHub](https://github.com/stacksjs/ts-starter/discussions)
+[Discussions on GitHub](https://github.com/stacksjs/bun-ts-starter/discussions)
 
 For casual chit-chat with others using this package:
 
