@@ -45,18 +45,18 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.1.0",
-    "@types/node": "^20.9.4",
-    "bun-types": "^1.0.14",
-    "bumpp": "^9.2.0",
+    "@antfu/eslint-config": "^2.6.4",
+    "@types/node": "^20.11.19",
+    "bun-types": "^1.0.28",
+    "bumpp": "^9.3.0",
     "commitizen": "^4.3.0",
     "conventional-changelog-cli": "^4.1.0",
-    "cz-git": "^1.7.1",
-    "eslint": "^8.54.0",
-    "lint-staged": "^15.1.0",
+    "cz-git": "^1.8.0",
+    "eslint": "^8.56.0",
+    "lint-staged": "^15.2.2",
     "rimraf": "^5.0.5",
     "simple-git-hooks": "^2.9.0",
-    "typescript": "^5.3.2"
+    "typescript": "^5.3.3"
   },
   "simple-git-hooks": {
     "pre-commit": "bunx --no-install lint-staged",
