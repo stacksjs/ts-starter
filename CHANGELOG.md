@@ -1,4 +1,17 @@
 
+## v0.1.1...main
+
+[compare changes](https://github.com/stacksjs/bun-ts-starter/compare/v0.1.1...main)
+
+### 🏡 Chore
+
+- Adjust eslint config name ([53c2aa6](https://github.com/stacksjs/bun-ts-starter/commit/53c2aa6))
+- Set type module ([22dde14](https://github.com/stacksjs/bun-ts-starter/commit/22dde14))
+
+### ❤️ Contributors
+
+- Chris <chrisbreuer93@gmail.com>
+
 ## v0.1.0...main
 
 [compare changes](https://github.com/stacksjs/bun-ts-starter/compare/v0.1.0...main)
