@@ -1,6 +1,7 @@
 {
   "name": "bun-ts-starter",
   "version": "0.1.1",
+  "type": "module",
   "description": "A simple TypeScript starter kit using Bun.",
   "author": "Chris Breuer <chris@stacksjs.org>",
   "license": "MIT",
