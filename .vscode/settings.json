@@ -70,7 +70,6 @@
   ],
   "cSpell.ignorePaths": [
     "node_modules",
-    "lang/de.yml"
   ],
   "cSpell.dictionaries": [
     "custom-dictionary"
