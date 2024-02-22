@@ -88,10 +88,10 @@ The MIT License (MIT). Please see [LICENSE](LICENSE.md) for more information.
 Made with 💙
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/@stacksjs/dummy-bun-ts-pkg?style=flat-square
-[npm-version-href]: https://npmjs.com/package/@stacksjs/dummy-bun-ts-pkg
-[npm-downloads-src]: https://img.shields.io/npm/dm/@stacksjs/dummy-bun-ts-pkg?style=flat-square
-[npm-downloads-href]: https://npmjs.com/package/@stacksjs/dummy-bun-ts-pkg
+[npm-version-src]: https://img.shields.io/npm/v/bun-ts-starter?style=flat-square
+[npm-version-href]: https://npmjs.com/package/bun-ts-starter
+[npm-downloads-src]: https://img.shields.io/npm/dm/bun-ts-starter?style=flat-square
+[npm-downloads-href]: https://npmjs.com/package/bun-ts-starter
 [github-actions-src]: https://img.shields.io/github/actions/workflow/status/stacksjs/bun-ts-starter/ci.yml?style=flat-square&branch=main
 [github-actions-href]: https://github.com/stacksjs/bun-ts-starter/actions?query=workflow%3Aci
 
