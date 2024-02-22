@@ -1,4 +1,17 @@
 
+## v0.2.0...main
+
+[compare changes](https://github.com/stacksjs/bun-ts-starter/compare/v0.2.0...main)
+
+### 🏡 Chore
+
+- Remove unused action ([066f85a](https://github.com/stacksjs/bun-ts-starter/commit/066f85a))
+- Housekeeping ([fc4e24d](https://github.com/stacksjs/bun-ts-starter/commit/fc4e24d))
+
+### ❤️ Contributors
+
+- Chris <chrisbreuer93@gmail.com>
+
 ## v0.1.1...main
 
 [compare changes](https://github.com/stacksjs/bun-ts-starter/compare/v0.1.1...main)
