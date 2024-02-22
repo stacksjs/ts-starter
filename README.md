@@ -1,4 +1,4 @@
-<p align="center"><img src=".github/art/cover_ts_starter.png" alt="Social Card of TypeScript Starter"></p>
+<p align="center"><img src=".github/art/cover_ts_starter.jpg" alt="Social Card of TypeScript Starter"></p>
 
 [![npm version][npm-version-src]][npm-version-href]
 [![GitHub Actions][github-actions-src]][github-actions-href]
@@ -10,9 +10,9 @@
 
 This is an opinionated TypeScript Starter kit to help kick-start development of your next Bun package.
 
-## 💡 Get Started
+## Get Started
 
-Luckily, it's incredibly easy to get your package development started:
+It's rather simple to get your package development started:
 
 ```bash
 # you may use this GitHub template or the following command:
@@ -31,6 +31,8 @@ bun run commit # then simply answer the questions
 bun run release # automates git commits, versioning, and changelog generations
 ```
 
+_Check out the package.json scripts for more commands._
+
 ### Developer Experience (DX)
 
 This Starter Kit comes pre-configured with the following:
@@ -42,21 +44,21 @@ This Starter Kit comes pre-configured with the following:
 - [Renovate](https://renovatebot.com/) - optimized & automated PR dependency updates
 - [GitHub Actions](https://github.com/features/actions) - runs your CI _(fixes code style issues, tags releases & creates its changelogs, runs the test suite, etc.)_
 
-## 🧪 Testing
+## Testing
 
 ```bash
 bun test
 ```
 
-## 📈 Changelog
+## Changelog
 
 Please see our [releases](https://github.com/stackjs/bun-ts-starter/releases) page for more information on what has changed recently.
 
-## 💪🏼 Contributing
+## Contributing
 
 Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 
-## 🏝 Community
+## Community
 
 For help, discussion about best practices, or any other conversation that would benefit from being searchable:
 
@@ -66,11 +68,24 @@ For casual chit-chat with others using this package:
 
 [Join the Stacks Discord Server](https://discord.gg/stacksjs)
 
+## Postcardware
+
+You will always be free to use any of the Stacks OSS software. We would also love to see which parts of the world Stacks ends up in. _Receiving a post cards makes us happy—we will publish them on our website._
+
+Our address is: Stacks.js, 5710 Crescent Park #107, Playa Vista 90094, CA.
+
+## Sponsors
+
+We would like to extend our thanks to the following sponsors for funding Stacks development. If you are interested in becoming a sponsor, please reach out to us.
+
+- [JetBrains](https://www.jetbrains.com/)
+- [The Solana Foundation](https://solana.com/)
+
 ## 📄 License
 
 The MIT License (MIT). Please see [LICENSE](LICENSE.md) for more information.
 
-Made with ❤️
+Made with 💙
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/@stacksjs/dummy-bun-ts-pkg?style=flat-square
