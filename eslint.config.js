@@ -1,3 +1,3 @@
-import antfu from '@antfu/eslint-config'
+import stacks from '@stacksjs/eslint-config'
 
-export default antfu()
+export default stacks()

@@ -35,7 +35,7 @@
     "build": "bun --bun build.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "fresh": "rimraf node_modules/ bun.lock && bun i",
+    "fresh": "bunx rimraf node_modules/ bun.lock && bun i",
     "commit": "git cz",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "prepublishOnly": "bun --bun run build",
@@ -45,7 +45,7 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.6.4",
+    "@stacksjs/eslint-config": "^0.58.73",
     "@types/node": "^20.11.19",
     "bun-types": "^1.0.28",
     "bumpp": "^9.3.0",
@@ -54,7 +54,6 @@
     "cz-git": "^1.8.0",
     "eslint": "^8.56.0",
     "lint-staged": "^15.2.2",
-    "rimraf": "^5.0.5",
     "simple-git-hooks": "^2.9.0",
     "typescript": "^5.3.3"
   },
