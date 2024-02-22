@@ -1,4 +1,16 @@
 
+## v0.1.0...main
+
+[compare changes](https://github.com/stacksjs/bun-ts-starter/compare/v0.1.0...main)
+
+### 🏡 Chore
+
+- Use correct cover image ([75bd3ae](https://github.com/stacksjs/bun-ts-starter/commit/75bd3ae))
+
+### ❤️ Contributors
+
+- Chris <chrisbreuer93@gmail.com>
+
 ## v0.0.5...main
 
 [compare changes](https://github.com/stacksjs/bun-ts-starter/compare/v0.0.5...main)
