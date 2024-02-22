@@ -1,24 +1,23 @@
 {
   "compilerOptions": {
     "target": "esnext",
-    "module": "esnext",
     "lib": [
       "esnext"
     ],
-    "moduleResolution": "bundler",
-    "noEmit": true,
-    "allowImportingTsExtensions": true,
     "moduleDetection": "force",
-    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "types": [
+      "node"
+    ],
+    "allowImportingTsExtensions": true,
     "strict": true,
     "strictNullChecks": true,
-    "resolveJsonModule": true,
+    "noEmit": true,
+    "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
     "skipDefaultLibCheck": true,
-    "types": [
-      "node",
-      "bun-types"
-    ]
+    "skipLibCheck": true
   }
 }
