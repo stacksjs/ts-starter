@@ -67,7 +67,7 @@
     "commit-msg": "bunx --no -- commitlint --edit $1"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,vue}": "bunx eslint --fix"
+    "*.{js,jsx,ts,tsx,vue}": "eslint --fix"
   },
   "config": {
     "commitizen": {
