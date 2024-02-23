@@ -58,7 +58,7 @@ jobs:
         run: bun install
 
       - name: Typecheck
-        run: bun run typecheck
+        run: bun --bun run typecheck
 
   test:
     runs-on: ubuntu-latest
