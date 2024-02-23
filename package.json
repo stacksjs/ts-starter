@@ -39,7 +39,7 @@
   ],
   "scripts": {
     "build": "bun --bun build.ts",
-    "lint": "bunx eslint .",
+    "lint": "eslint .",
     "lint:fix": "bunx eslint . --fix",
     "fresh": "bunx rimraf node_modules/ bun.lock && bun i",
     "commit": "git cz",
