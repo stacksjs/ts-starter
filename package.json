@@ -54,12 +54,12 @@
     "@stacksjs/eslint-config": "^0.58.73",
     "@types/bun": "^1.0.8",
     "@types/node": "^20.11.24",
-    "bumpp": "^9.3.0",
+    "bumpp": "^9.4.0",
     "changelogen": "^0.5.5",
     "commitizen": "^4.3.0",
-    "cz-git": "^1.8.0",
+    "cz-git": "^1.9.0",
     "lint-staged": "^15.2.2",
-    "simple-git-hooks": "^2.9.0",
+    "simple-git-hooks": "^2.10.0",
     "typescript": "^5.3.3"
   },
   "simple-git-hooks": {
