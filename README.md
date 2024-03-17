@@ -38,7 +38,7 @@ _Check out the package.json scripts for more commands._
 This Starter Kit comes pre-configured with the following:
 
 - [Powerful Build Process](https://github.com/oven-sh/bun) - via Bun
-- [Fully Typed APIs](https://www.typescriptlang.org/) - via TypeScript 5.1
+- [Fully Typed APIs](https://www.typescriptlang.org/) - via TypeScript
 - [Be a Good Commitizen](https://www.npmjs.com/package/git-cz) - pre-configured Commitizen & git-cz setup to simplify semantic git commits, versioning, and changelog generations
 - [Built With Testing In Mind](https://bun.sh/docs/cli/test) - pre-configured unit-testing powered by [Bun](https://bun.sh/docs/cli/test)
 - [Renovate](https://renovatebot.com/) - optimized & automated PR dependency updates
@@ -70,9 +70,9 @@ For casual chit-chat with others using this package:
 
 ## Postcardware
 
-You will always be free to use any of the Stacks OSS software. We would also love to see which parts of the world Stacks ends up in. _Receiving postcards makes us happy—andwe will publish them on our website._
+Stacks OSS will always stay open-sourced, and we will always love to receive postcards from wherever Stacks is used! _And we also publish them on our website. Thank you, Spatie._
 
-Our address is: Stacks.js, 5710 Crescent Park #107, Playa Vista 90094, CA.
+Our address: Stacks.js, 5710 Crescent Park #107, Playa Vista 90094, CA, USA 🌎
 
 ## Sponsors
 

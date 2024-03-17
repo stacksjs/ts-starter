@@ -22,6 +22,7 @@ prefetch
 preinstall
 socio
 Solana
+Spatie
 stacksjs
 typecheck
 unplugin
