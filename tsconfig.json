@@ -9,7 +9,7 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "types": [
-      "node"
+      "bun"
     ],
     "allowImportingTsExtensions": true,
     "strict": true,
