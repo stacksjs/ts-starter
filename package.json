@@ -50,10 +50,9 @@
     "typecheck": "bun --bun tsc --noEmit"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.9.0",
     "@commitlint/cli": "^19.5.0",
-    "@stacksjs/eslint-config": "^0.59.11",
     "@types/bun": "^1.1.9",
-    "@types/node": "^20.16.5",
     "bumpp": "^9.5.2",
     "changelogen": "^0.5.5",
     "commitizen": "^4.3.0",
@@ -67,7 +66,7 @@
     "commit-msg": "bunx --no -- commitlint --edit $1"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,vue}": "eslint --fix"
+    "*.{js,jsx,ts,tsx,vue}": "bunx biome --fix"
   },
   "config": {
     "commitizen": {

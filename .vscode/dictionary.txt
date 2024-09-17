@@ -1,4 +1,5 @@
 antfu
+biomejs
 booleanish
 bumpp
 bunx
