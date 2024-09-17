@@ -9,6 +9,7 @@ codecov
 commitlint
 commitlintrc
 composables
+davidanson
 degit
 deps
 destructurable
@@ -21,6 +22,7 @@ pausable
 Postcardware
 prefetch
 preinstall
+quickfix
 socio
 Solana
 Spatie

@@ -52,6 +52,7 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.0",
     "@commitlint/cli": "^19.5.0",
+    "@stacksjs/biome-config": "^0.1.0",
     "@types/bun": "^1.1.9",
     "bumpp": "^9.5.2",
     "changelogen": "^0.5.5",
