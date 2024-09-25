@@ -46,6 +46,7 @@
     "@stacksjs/biome-config": "^0.1.5",
     "@types/bun": "^1.1.10",
     "bumpp": "^9.5.2",
+    "bun-plugin-dts-auto": "^0.15.0",
     "changelogen": "^0.5.7",
     "commitizen": "^4.3.0",
     "cz-git": "^1.9.4",
