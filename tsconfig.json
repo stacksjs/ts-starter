@@ -18,6 +18,7 @@
     "skipDefaultLibCheck": true,
     "skipLibCheck": true,
     "isolatedModules": true,
-    "isolatedDeclaration": true
+    "declaration": true,
+    "isolatedDeclarations": true
   }
 }
