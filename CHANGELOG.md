@@ -1,4 +1,16 @@
 
+## v0.3.1...main
+
+[compare changes](https://github.com/stacksjs/ts-starter/compare/v0.3.1...main)
+
+### 🚀 Enhancements
+
+- Add `bun-plugin-dts-auto` ([c0c487b](https://github.com/stacksjs/ts-starter/commit/c0c487b))
+
+### ❤️ Contributors
+
+- Chris <chrisbreuer93@gmail.com>
+
 ## v0.3.0...main
 
 [compare changes](https://github.com/stacksjs/ts-starter/compare/v0.3.0...main)
