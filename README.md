@@ -16,7 +16,7 @@ It's rather simple to get your package development started:
 
 ```bash
 # you may use this GitHub template or the following command:
-bunx degit stacksjs/bun-ts-starter my-pkg
+bunx degit stacksjs/ts-starter my-pkg
 cd my-pkg
 
  # if you don't have pnpm installed, run `npm i -g pnpm`
@@ -63,7 +63,7 @@ Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 
 For help, discussion about best practices, or any other conversation that would benefit from being searchable:
 
-[Discussions on GitHub](https://github.com/stacksjs/bun-ts-starter/discussions)
+[Discussions on GitHub](https://github.com/stacksjs/ts-starter/discussions)
 
 For casual chit-chat with others using this package:
 
@@ -93,8 +93,8 @@ Made with 💙
 [npm-version-href]: https://npmjs.com/package/bun-ts-starter
 [npm-downloads-src]: https://img.shields.io/npm/dm/bun-ts-starter?style=flat-square
 [npm-downloads-href]: https://npmjs.com/package/bun-ts-starter
-[github-actions-src]: https://img.shields.io/github/actions/workflow/status/stacksjs/bun-ts-starter/ci.yml?style=flat-square&branch=main
-[github-actions-href]: https://github.com/stacksjs/bun-ts-starter/actions?query=workflow%3Aci
+[github-actions-src]: https://img.shields.io/github/actions/workflow/status/stacksjs/ts-starter/ci.yml?style=flat-square&branch=main
+[github-actions-href]: https://github.com/stacksjs/ts-starter/actions?query=workflow%3Aci
 
-<!-- [codecov-src]: https://img.shields.io/codecov/c/gh/stacksjs/bun-ts-starter/main?style=flat-square
-[codecov-href]: https://codecov.io/gh/stacksjs/bun-ts-starter -->
+<!-- [codecov-src]: https://img.shields.io/codecov/c/gh/stacksjs/ts-starter/main?style=flat-square
+[codecov-href]: https://codecov.io/gh/stacksjs/ts-starter -->
