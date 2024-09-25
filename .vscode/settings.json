@@ -1,6 +1,5 @@
 {
   "typescript.tsdk": "node_modules/typescript/lib",
-  // Disable the default formatter, use eslint instead
   "prettier.enable": false,
   "editor.defaultFormatter": "biomejs.biome",
   "editor.formatOnSave": true,
