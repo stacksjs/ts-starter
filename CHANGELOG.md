@@ -1,4 +1,44 @@
 
+## v0.2.1...main
+
+[compare changes](https://github.com/stacksjs/ts-starter/compare/v0.2.1...main)
+
+### 🚀 Enhancements
+
+- Add `noFallthroughCasesInSwitch` ([b9cfa30](https://github.com/stacksjs/ts-starter/commit/b9cfa30))
+- Add `verbatimModuleSyntax` ([c495d17](https://github.com/stacksjs/ts-starter/commit/c495d17))
+- Several updates ([f703179](https://github.com/stacksjs/ts-starter/commit/f703179))
+
+### 🩹 Fixes
+
+- Properly use bun types ([7144221](https://github.com/stacksjs/ts-starter/commit/7144221))
+
+### 🏡 Chore
+
+- Adjust badge links ([432aff7](https://github.com/stacksjs/ts-starter/commit/432aff7))
+- Add `runs-on` options ([9a5b97f](https://github.com/stacksjs/ts-starter/commit/9a5b97f))
+- Cache node_modules ([ba2f6ce](https://github.com/stacksjs/ts-starter/commit/ba2f6ce))
+- Use `ubuntu-latest` for now ([1add684](https://github.com/stacksjs/ts-starter/commit/1add684))
+- Minor updates ([1007cff](https://github.com/stacksjs/ts-starter/commit/1007cff))
+- Lint ([d531bdc](https://github.com/stacksjs/ts-starter/commit/d531bdc))
+- Remove bunx usage ([e1a5575](https://github.com/stacksjs/ts-starter/commit/e1a5575))
+- Pass bun flag ([960976f](https://github.com/stacksjs/ts-starter/commit/960976f))
+- Use defaults ([157455b](https://github.com/stacksjs/ts-starter/commit/157455b))
+- Run typecheck using bun flag ([f22f3b1](https://github.com/stacksjs/ts-starter/commit/f22f3b1))
+- Test ([0b3c3a1](https://github.com/stacksjs/ts-starter/commit/0b3c3a1))
+- Use modern js for commitlint ([4bd6978](https://github.com/stacksjs/ts-starter/commit/4bd6978))
+- Update worklows readme ([f54aae9](https://github.com/stacksjs/ts-starter/commit/f54aae9))
+- Adjust readme ([92d7ff1](https://github.com/stacksjs/ts-starter/commit/92d7ff1))
+- More updates ([0225587](https://github.com/stacksjs/ts-starter/commit/0225587))
+- Add .zed settings for biome ([1688024](https://github.com/stacksjs/ts-starter/commit/1688024))
+- Extend via alias ([b108d30](https://github.com/stacksjs/ts-starter/commit/b108d30))
+- Lint ([d961b2a](https://github.com/stacksjs/ts-starter/commit/d961b2a))
+- Minor updates ([e66d44a](https://github.com/stacksjs/ts-starter/commit/e66d44a))
+
+### ❤️ Contributors
+
+- Chris <chrisbreuer93@gmail.com>
+
 ## v0.2.0...main
 
 [compare changes](https://github.com/stacksjs/bun-ts-starter/compare/v0.2.0...main)
