@@ -1,4 +1,17 @@
 
+## v0.3.0...main
+
+[compare changes](https://github.com/stacksjs/ts-starter/compare/v0.3.0...main)
+
+### 🏡 Chore
+
+- Fix isolatedDeclarations setting ([b87b6b1](https://github.com/stacksjs/ts-starter/commit/b87b6b1))
+- Adjust urls ([0a40b72](https://github.com/stacksjs/ts-starter/commit/0a40b72))
+
+### ❤️ Contributors
+
+- Chris <chrisbreuer93@gmail.com>
+
 ## v0.2.1...main
 
 [compare changes](https://github.com/stacksjs/ts-starter/compare/v0.2.1...main)
