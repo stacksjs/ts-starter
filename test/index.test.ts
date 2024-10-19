@@ -7,7 +7,7 @@ function add(a: number, b: number): number {
 
 // Example async function to test
 async function fetchData(): Promise<string> {
-  return new Promise((resolve) => setTimeout(() => resolve('data'), 100))
+  return new Promise(resolve => setTimeout(() => resolve('data'), 100))
 }
 
 // Example module to mock
@@ -22,10 +22,12 @@ describe('my awesome package', () => {
   let testValue: number
 
   beforeAll(() => {
+    // eslint-disable-next-line no-console
     console.log('Running before all tests')
   })
 
   afterAll(() => {
+    // eslint-disable-next-line no-console
     console.log('Running after all tests')
   })
 
@@ -75,6 +77,7 @@ describe('my awesome package', () => {
 
   it('should demonstrate spy functionality', () => {
     const consoleSpy = spyOn(console, 'log')
+    // eslint-disable-next-line no-console
     console.log('Test message')
     expect(consoleSpy).toHaveBeenCalledWith('Test message')
     consoleSpy.mockRestore()
