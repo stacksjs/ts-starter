@@ -41,7 +41,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.6.0",
     "@stacksjs/eslint-config": "^3.8.1-beta.2",
-    "@types/bun": "^1.1.13",
+    "@types/bun": "^1.1.14",
     "bumpp": "^9.8.1",
     "bun-plugin-dts-auto": "^0.20.6",
     "changelogen": "^0.5.7",
