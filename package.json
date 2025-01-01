@@ -28,8 +28,8 @@
   "files": ["dist"],
   "scripts": {
     "build": "bun --bun build.ts",
-    "lint": "bunx eslint .",
-    "lint:fix": "bunx eslint . --fix",
+    "lint": "bunx --bun eslint --flag unstable_ts_config .",
+    "lint:fix": "bunx --bun eslint --flag unstable_ts_config . --fix",
     "fresh": "bunx rimraf node_modules/ bun.lock && bun i",
     "changelog": "bunx changelogen --output CHANGELOG.md",
     "prepublishOnly": "bun --bun run build",
@@ -41,20 +41,16 @@
     "typecheck": "bun --bun tsc --noEmit"
   },
   "devDependencies": {
-    "@stacksjs/eslint-config": "^3.11.3-beta.4",
+    "@stacksjs/eslint-config": "^3.12.0-beta.4",
     "@types/bun": "^1.1.14",
     "bumpp": "^9.9.2",
     "bun-plugin-dtsx": "^0.21.9",
     "changelogen": "^0.5.7",
-    "commitizen": "^4.3.1",
     "lint-staged": "^15.3.0",
     "simple-git-hooks": "^2.11.1",
     "typescript": "^5.7.2"
   },
-  "simple-git-hooks": {
-    "pre-commit": "bun lint-staged"
-  },
   "lint-staged": {
-    "*.{js,ts}": "bunx eslint . --fix"
+    "*.{js,ts}": "bunx --bun eslint --flag unstable_ts_config . --fix"
   }
 }
