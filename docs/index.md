@@ -3,22 +3,31 @@
 layout: home
 
 hero:
-  name: "Reverse Proxy"
-  text: "A better developer environment."
-  tagline: My great project tagline
+  name: "ts-starter"
+  text: "For a better local environment."
+  tagline: "Modern and smart reverse proxy."
+  image: /images/logo-white.png
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get Started
+      link: /intro
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: View on GitHub
+      link: https://github.com/stacksjs/rpx
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: "Minimal Starter Kit"
+    icon: "🔀"
+    details: "Bootstrap your next TypeScript project."
+  - title: "Documentation"
+    icon: "📚"
+    details: "Easily document your idea/package/library."
+  - title: "CLI"
+    icon: "🛠"
+    details: "Build your own CLI."
+  - title: "Binary"
+    icon: "🚀"
+    details: "Automatically builds a binary for your project out of your CLI."
 ---
+
+<Home />

@@ -25,10 +25,10 @@
   },
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
   "bin": {
     "bin-name": "./dist/bin/cli.js"
   },
+  "files": ["README.md", "dist"],
   "scripts": {
     "build": "bun --bun build.ts && bun run compile",
     "compile": "bun build ./bin/cli.ts --compile --minify --outfile bin/bin-name",
@@ -51,6 +51,8 @@
     "typecheck": "bun --bun tsc --noEmit"
   },
   "devDependencies": {
+    "@iconify-json/carbon": "^1.2.5",
+    "@shikijs/vitepress-twoslash": "^1.24.4",
     "@stacksjs/eslint-config": "^3.12.0-beta.4",
     "@types/bun": "^1.1.14",
     "bumpp": "^9.9.2",
@@ -58,7 +60,15 @@
     "changelogen": "^0.5.7",
     "lint-staged": "^15.3.0",
     "simple-git-hooks": "^2.11.1",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "unocss": "^0.65.3",
+    "unplugin-icons": "^0.22.0",
+    "unplugin-vue-components": "^0.28.0",
+    "vite-plugin-pwa": "^0.21.1",
+    "vitepress": "^1.5.0"
+  },
+  "overrides": {
+    "unconfig": "0.3.10"
   },
   "lint-staged": {
     "*.{js,ts}": "bunx --bun eslint --flag unstable_ts_config . --fix"
