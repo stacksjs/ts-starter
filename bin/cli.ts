@@ -4,7 +4,7 @@ import { config } from '../src/config'
 
 const cli = new CAC('my-cli')
 
-interface ReverseProxyOption {
+interface CliOption {
   from: string
   verbose: boolean
 }
@@ -14,9 +14,12 @@ cli
   .option('--from <from>', 'The URL to proxy from')
   .option('--verbose', 'Enable verbose logging')
   .example('reverse-proxy start --from localhost:5173 --to my-project.localhost')
-  .action(async (options?: ReverseProxyOption) => {
-    if (!options?.from || !options.to) {
-      return startProxies(config)
+  .action(async (options?: CliOption) => {
+    if (!options?.from) {
+      console.error('Missing --from option')
+    }
+    else {
+      console.log('Options:', options)
     }
   })
 
