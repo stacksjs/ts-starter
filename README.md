@@ -10,6 +10,19 @@
 
 This is an opinionated TypeScript Starter kit to help kick-start development of your next Bun package.
 
+## Features
+
+This Starter Kit comes pre-configured with the following:
+
+- 🛠️ [Powerful Build Process](https://github.com/oven-sh/bun) - via Bun
+- 💪🏽 [Fully Typed APIs](https://www.typescriptlang.org/) - via TypeScript
+- 📚 [Documentation-ready](https://vitepress.dev/) - via VitePress
+- ⌘ [CLI & Binary](https://www.npmjs.com/package/bunx) - via Bun & CAC
+- 🧪 [Built With Testing In Mind](https://bun.sh/docs/cli/test) - pre-configured unit-testing powered by [Bun](https://bun.sh/docs/cli/test)
+- 🤖 [Renovate](https://renovatebot.com/) - optimized & automated PR dependency updates
+- 🎨 [ESLint](https://eslint.org/) - for code linting _(and formatting)_
+- 🐙 [GitHub Actions](https://github.com/features/actions) - runs your CI _(fixes code style issues, tags releases & creates its changelogs, runs the test suite, etc.)_
+
 ## Get Started
 
 It's rather simple to get your package development started:
@@ -28,20 +41,6 @@ bun run release # automates git commits, versioning, and changelog generations
 ```
 
 _Check out the package.json scripts for more commands._
-
-### Developer Experience (DX)
-
-This Starter Kit comes pre-configured with the following:
-
-- [Powerful Build Process](https://github.com/oven-sh/bun) - via Bun
-- [Fully Typed APIs](https://www.typescriptlang.org/) - via TypeScript
-- [Documentation-ready](https://vitepress.dev/) - via VitePress
-- [CLI & Binary](https://www.npmjs.com/package/bunx) - via Bun & CAC
-- [Be a Good Commitizen](https://www.npmjs.com/package/git-cz) - pre-configured Commitizen & git-cz setup to simplify semantic git commits, versioning, and changelog generations
-- [Built With Testing In Mind](https://bun.sh/docs/cli/test) - pre-configured unit-testing powered by [Bun](https://bun.sh/docs/cli/test)
-- [Renovate](https://renovatebot.com/) - optimized & automated PR dependency updates
-- [ESLint](https://eslint.org/) - for code linting _(and formatting)_
-- [GitHub Actions](https://github.com/features/actions) - runs your CI _(fixes code style issues, tags releases & creates its changelogs, runs the test suite, etc.)_
 
 ## Testing
 
@@ -80,7 +79,7 @@ We would like to extend our thanks to the following sponsors for funding Stacks 
 - [JetBrains](https://www.jetbrains.com/)
 - [The Solana Foundation](https://solana.com/)
 
-## 📄 License
+## License
 
 The MIT License (MIT). Please see [LICENSE](LICENSE.md) for more information.
 
