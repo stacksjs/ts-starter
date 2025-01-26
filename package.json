@@ -55,7 +55,7 @@
     "@shikijs/vitepress-twoslash": "^2.1.0",
     "@stacksjs/eslint-config": "^3.12.0-beta.4",
     "@types/bun": "^1.2.0",
-    "bumpp": "^9.10.2",
+    "bumpp": "^10.0.1",
     "bun-plugin-dtsx": "^0.21.9",
     "bunfig": "^0.5.3",
     "changelogen": "^0.5.7",
