@@ -38,8 +38,8 @@
     "compile:windows-x64": "bun build ./bin/cli.ts --compile --minify --target=bun-windows-x64 --outfile bin/bin-name-windows-x64.exe",
     "compile:darwin-x64": "bun build ./bin/cli.ts --compile --minify --target=bun-darwin-x64 --outfile bin/bin-name-darwin-x64",
     "compile:darwin-arm64": "bun build ./bin/cli.ts --compile --minify --target=bun-darwin-arm64 --outfile bin/bin-name-darwin-arm64",
-    "lint": "bunx --bun eslint --flag unstable_ts_config .",
-    "lint:fix": "bunx --bun eslint --flag unstable_ts_config . --fix",
+    "lint": "bunx --bun eslint .",
+    "lint:fix": "bunx --bun eslint . --fix",
     "fresh": "bunx rimraf node_modules/ bun.lock && bun i",
     "changelog": "bunx changelogen --output CHANGELOG.md",
     "prepublishOnly": "bun --bun run build && bun run compile:all",
@@ -53,7 +53,7 @@
   "devDependencies": {
     "@iconify-json/carbon": "^1.2.5",
     "@shikijs/vitepress-twoslash": "^2.1.0",
-    "@stacksjs/eslint-config": "^3.12.0-beta.4",
+    "@stacksjs/eslint-config": "^3.15.1-beta.4",
     "@types/bun": "^1.2.0",
     "bumpp": "^10.0.1",
     "bun-plugin-dtsx": "^0.21.9",
@@ -72,6 +72,6 @@
     "unconfig": "0.6.0"
   },
   "lint-staged": {
-    "*.{js,ts}": "bunx --bun eslint --flag unstable_ts_config . --fix"
+    "*.{js,ts}": "bunx --bun eslint . --fix"
   }
 }

@@ -1,6 +1,5 @@
 import { CAC } from 'cac'
 import { version } from '../package.json'
-import { config } from '../src/config'
 
 const cli = new CAC('my-cli')
 
