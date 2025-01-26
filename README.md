@@ -21,6 +21,7 @@ This Starter Kit comes pre-configured with the following:
 - 🧪 [Built With Testing In Mind](https://bun.sh/docs/cli/test) - pre-configured unit-testing powered by [Bun](https://bun.sh/docs/cli/test)
 - 🤖 [Renovate](https://renovatebot.com/) - optimized & automated PR dependency updates
 - 🎨 [ESLint](https://eslint.org/) - for code linting _(and formatting)_
+- 📦️ [pkg.pr.new](https://pkg.pr.new) - Continuous (Preview) Releases for your libraries
 - 🐙 [GitHub Actions](https://github.com/features/actions) - runs your CI _(fixes code style issues, tags releases & creates its changelogs, runs the test suite, etc.)_
 
 ## Get Started
