@@ -33,7 +33,6 @@ It's rather simple to get your package development started:
 bunx degit stacksjs/ts-starter my-pkg
 cd my-pkg
 
- # if you don't have pnpm installed, run `npm i -g pnpm`
 bun i # install all deps
 bun run build # builds the library for production-ready use
 
