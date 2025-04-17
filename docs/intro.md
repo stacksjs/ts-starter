@@ -45,6 +45,10 @@ This Starter Kit comes pre-configured with the following:
 
 Please see our [releases](https://github.com/stacksjs/stacks/releases) page for more information on what has changed recently.
 
+## Stargazers
+
+[![Stargazers](https://starchart.cc/stacksjs/ts-starter.svg?variant=adaptive)](https://starchart.cc/stacksjs/ts-starter)
+
 ## Contributing
 
 Please review the [Contributing Guide](https://github.com/stacksjs/contributing) for details.
