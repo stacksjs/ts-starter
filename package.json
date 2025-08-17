@@ -62,6 +62,7 @@
     "@stacksjs/eslint-config": "^4.10.2-beta.3",
     "@types/bun": "^1.2.15",
     "bumpp": "^10.1.1",
+    "buddy-bot": "^0.8.6",
     "bun-plugin-dtsx": "^0.21.12",
     "bunfig": "^0.10.0",
     "changelogen": "^0.6.1",
