@@ -64,7 +64,7 @@
     "buddy-bot": "^0.8.6",
     "bumpp": "^10.2.3",
     "bun-plugin-dtsx": "^0.21.12",
-    "bunfig": "^0.10.1",
+    "bunfig": "^0.14.1",
     "changelogen": "^0.6.2",
     "lint-staged": "^16.1.5",
     "simple-git-hooks": "^2.13.1",
