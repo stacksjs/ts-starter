@@ -1,10 +1,11 @@
 {
   "lockfileVersion": 1,
+  "configVersion": 0,
   "workspaces": {
     "": {
       "name": "bun-ts-starter",
       "devDependencies": {
-        "better-dx": "^0.2.5",
+        "better-dx": "^0.2.6",
       },
     },
   },
