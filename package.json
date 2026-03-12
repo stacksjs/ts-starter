@@ -81,8 +81,5 @@
       "autoRestage": true
     },
     "commit-msg": "bunx gitlint --edit .git/COMMIT_EDITMSG"
-  },
-  "dependencies": {
-    "cac": "^7.0.0"
   }
 }
