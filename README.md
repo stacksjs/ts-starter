@@ -29,7 +29,7 @@ This Starter Kit comes pre-configured with the following:
 It's rather simple to get your package development started:
 
 ```bash
-# you may use this GitHub template or the following command:
+# you may use this GitHub template or the following command
 bunx degit stacksjs/ts-starter my-pkg
 cd my-pkg
 
